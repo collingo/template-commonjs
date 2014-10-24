@@ -1,7 +1,7 @@
 {
   "name": "<%= name %>",
   "version": "0.0.1",
-  "description": "<%= desc %>",
+  "description": "<%= title %>",
   "main": "src/<%= name %>.js",
   "directories": {
     "test": "test"
