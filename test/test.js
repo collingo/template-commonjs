@@ -9,9 +9,9 @@ chai.use(sinonChai);
 var sandbox;
 
 //// SUT
-var {{constructor}} = require('../src/{{name}}');
+var <%= constructor %> = require('../src/<%= name %>');
 
-describe('{{name}}', function() {
+describe('<%= name %>', function() {
 
   beforeEach(function() {
     sandbox = sinon.sandbox.create();
