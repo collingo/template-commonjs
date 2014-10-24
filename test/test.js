@@ -11,7 +11,7 @@ var sandbox;
 //// SUT
 var <%= constructor %> = require('../src/<%= name %>');
 
-describe('<%= name %>', function() {
+describe('<%= constructor %>', function() {
 
   beforeEach(function() {
     sandbox = sinon.sandbox.create();
