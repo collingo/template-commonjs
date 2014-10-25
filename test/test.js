@@ -2,7 +2,6 @@
 var chai = require('chai');
 var sinon = require('sinon');
 var sinonChai = require('sinon-chai');
-var Q = require('q');
 var expect = chai.expect;
 chai.use(sinonChai);
 
